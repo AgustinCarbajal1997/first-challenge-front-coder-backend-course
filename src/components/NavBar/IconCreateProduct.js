@@ -4,7 +4,7 @@ const IconCreateProduct = () => {
     return (
         <div className="icon-create-product">
             <Link to="/createProduct">
-                Creat producto
+                Crear producto
                 <MdCreateNewFolder color="#b99768" size="2rem"/>
             </Link>
         </div>

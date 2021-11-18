@@ -14,7 +14,7 @@ const UpdateContainer = () => {
   const history = useHistory();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/api/productos/getById/${id}`)
+    fetch(`https://olive-stone-index.glitch.me/api/productos/getById/${id}`)
       .then((response) => response.json())
       .then((data) => {
         const productToUpdate = {
@@ -41,7 +41,7 @@ const UpdateContainer = () => {
     );
     if (!allInputsCompleted.every((item) => item === true))
       return alert("Faltan datos");
-    fetch(`http://localhost:3000/api/productos/${id}/admin`, {
+    fetch(`https://olive-stone-index.glitch.me/api/productos/${id}/admin`, {
       headers: {
         "Content-Type": "application/json",
       },

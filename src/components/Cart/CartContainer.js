@@ -32,7 +32,7 @@ const CartContainer = () => {
         })
         .then(response => response.json())
         .then(data => {
-            console.log(data)
+            alert("Actualizado correctamente")
             history.push('/carts-created');
             clearProducts()
             clearId()

@@ -1,11 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 const UserAdmin = () => {
-    const { permits, changePermit } = useContext(CartContext)
-
-    console.log(permits)
-    
-
+    const { changePermit } = useContext(CartContext)
     return (
         <div className="permits-container">
             <label>

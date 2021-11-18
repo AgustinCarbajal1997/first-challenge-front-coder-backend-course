@@ -25,7 +25,7 @@ const CreateContainer = () => {
     e.preventDefault();
     const allInputsCompleted = Object.values(inputs).map(item => item.length ? true : false);
     if(!allInputsCompleted.every(item => item===true)) return alert("Faltan datos");
-    fetch("http://localhost:3000/api/productos/admin",{
+    fetch("https://olive-stone-index.glitch.me/api/productos/admin",{
         headers: {
             'Content-Type': 'application/json'
         },
