@@ -1,0 +1,43 @@
+const INITIAL_FORM_STATE = {
+    name:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    surname:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    email:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    phone:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    province:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    city:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    zipCode:{
+        value:"",
+        onBlur:false,
+        checked:false
+    },
+    address:{
+        value:"",
+        onBlur:false,
+        checked:false
+    }
+}
+export default INITIAL_FORM_STATE;
